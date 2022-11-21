@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.latestMatch-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #0f172a;
+  border-radius: 10px;
+  font-family: bree serif;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.latestMatch-team-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.competing-logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+.innings-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .hr-line {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .hr-line {
+    display: none;
+  }
+  .latestMatch-bg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .innings-details {
+    align-items: flex-end;
+  }
+}

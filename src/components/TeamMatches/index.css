@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.initial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-family: bree serif;
+}
+.yankeesBlue {
+  background-color: #1e293b;
+}
+.auburn {
+  background-color: #a4261d;
+}
+.liberty {
+  background-color: #5755a7;
+}
+.red {
+  background-color: #d91c1f;
+}
+.yellow {
+  background-color: #f7db00;
+}
+.pink {
+  background-color: #da237b;
+}
+.blue {
+  background-color: #13418b;
+}
+.orange {
+  background-color: #f26d22;
+}
+.lightBlue {
+  background-color: #4f5db0;
+}
+.dark {
+  background-color: #0f172a;
+}
+.team-banner {
+  width: 100%;
+}
+.description {
+  color: #ffffff;
+  font-size: 30px;
+}
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
